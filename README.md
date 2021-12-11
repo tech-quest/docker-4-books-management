@@ -1,46 +1,17 @@
-# docker 🐳
+# 環境構築 🐳
 
-## 環境構築
+## 1. 「docker-4-books-management」リポジトリをテンプレートとして、自身のGithubに「books_management」リポジトリを作成
 
-Build a simple laravel development environment with docker-compose.
+## 2. ローカルにcloneする
 
-## Usage
+## 3. 「Dockerの起動」と「Laravelのインストール」
 
 ```bash
-$ git clone git@github.com:ucan-lab/docker-laravel.git
-$ cd docker-laravel
 $ make create-project # Install the latest Laravel project
-$ make install-recommend-packages # Optional
 ```
+
+## 4. Laravelがインストールできているか確認
 
 http://localhost
 
-## Tips
-
-- Read this [Makefile](https://github.com/ucan-lab/docker-laravel/blob/main/Makefile).
-- Read this [Wiki](https://github.com/ucan-lab/docker-laravel/wiki).
-
-## Container structures
-
-```bash
-├── app
-├── web
-└── db
-```
-
-### app container
-
-- Base image
-  - [php](https://hub.docker.com/_/php):8.0-fpm-bullseye
-  - [composer](https://hub.docker.com/_/composer):2.1
-
-### web container
-
-- Base image
-  - [nginx](https://hub.docker.com/_/nginx):1.20-alpine
-  - [node](https://hub.docker.com/_/node):16-alpine
-
-### db container
-
-- Base image
-  - [mysql/mysql-server](https://hub.docker.com/r/mysql/mysql-server):8.0
+## 5. 
