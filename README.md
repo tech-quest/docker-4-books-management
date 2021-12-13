@@ -2,7 +2,7 @@
 
 ## 環境構築
 
-### 1. 「docker-4-books-management」リポジトリをテンプレートとして、自身のGithubに「books_management」リポジトリを作成
+### 1. 「docker-4-books-manager」リポジトリをテンプレートとして、自身のGithubに「books_manager」リポジトリを作成
 
 ### 2. ローカルにcloneする
 
@@ -26,7 +26,7 @@ http://localhost
 ```bash
 WEB_PORT=80
 DB_PORT=3306
-DB_NAME=books_management
+DB_NAME=books_manager
 DB_USER=tech_quest
 DB_PASS=secret
 ```
