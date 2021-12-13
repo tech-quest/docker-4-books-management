@@ -30,3 +30,16 @@ DB_NAME=books_manager
 DB_USER=tech_quest
 DB_PASS=secret
 ```
+
+## その他コマンド
+
+### 使われているポートの確認
+
+```bash
+$ docker ps
+```
+
+### 使われているポートのkill
+```bash
+$ docker kill [CONTAINER ID]
+```
