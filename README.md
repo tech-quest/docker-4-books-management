@@ -16,21 +16,6 @@ $ make create-project # Install the latest Laravel project
 
 http://localhost
 
-### 5. 「.env」ファイルの作成
-
-1. 「.env.example」をコピし、「.env」ファイルを作成
-2. 下記のように「DB_NAME」と「DB_USER」を書き換えましょう
-
-※ 「backend/.env.example」ではないので注意してください
-
-```bash
-WEB_PORT=80
-DB_PORT=3306
-DB_NAME=books_manager
-DB_USER=tech_quest
-DB_PASS=secret
-```
-
 ## その他コマンド
 
 ### 使われているポートの確認
