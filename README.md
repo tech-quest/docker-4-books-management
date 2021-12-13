@@ -16,7 +16,7 @@ $ make create-project # Install the latest Laravel project
 
 http://localhost
 
-### 5. 
+### 5. 「.env」ファイルの作成
 
 1. 「.env.example」をコピし、「.env」ファイルを作成
 2. 下記のように「DB_NAME」と「DB_USER」を書き換えましょう
