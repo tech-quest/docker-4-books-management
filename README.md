@@ -6,13 +6,15 @@
 
 ### 2. ローカルにcloneする
 
-### 3. 「Dockerの起動」と「Laravelのインストール」
+### 3. Dockerのインストール
+
+### 4. 「Dockerの起動」と「Laravelのインストール」
 
 ```bash
-$ make create-project # Install the latest Laravel project
+$ make create-project
 ```
 
-### 4. Laravelがインストールできているか確認
+### 5. Laravelがインストールできているか確認
 
 http://localhost
 
