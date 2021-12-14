@@ -4,7 +4,7 @@
 
 ### 1. 「docker-4-books-manager」リポジトリをテンプレートとして、自身のGithubに「books_manager」リポジトリを作成
 
-<img width="1117" height="250" src="https://user-images.githubusercontent.com/63081802/146021927-c51cb3a6-0bb2-49f6-bbbb-888d3cf78816.png">
+<img width="1293" alt="スクリーンショット 2021-12-14 23 56 23" src="https://user-images.githubusercontent.com/63081802/146022676-045c722a-ee7d-4a96-9423-da71c46b5fd4.png">
 
 ### 2. ローカルにcloneする
 
